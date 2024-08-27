@@ -123,8 +123,4 @@ data.to_netcdf(path=os.path.join(out_dir,'annual_max_dmg_gtsm{:07d}.nc'.format(i
 
 del data,dmg
 
-a = [1,3,5,7,9,2]
-b = [2,2,4,8,7,5]
-
-np.maximum(a,b)
     

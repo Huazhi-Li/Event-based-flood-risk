@@ -6,16 +6,14 @@ These scripts are used to generate the event-based probalistic framework to capt
 2. The GLOFRIS coastal inundation maps from Mortensen et al. (2024), which is publicly available: https://doi.org/10.5281/zenodo.10637089
 
 **Scripts**
-1. Hazard
+Hazard
+1. inundation.py-->constructing inundation maps for synthetic events using the esl dataset and the GLOFRIS inundation maps
+2. source_station.py-->developing a specific coastal segment for each station (or assigning the inundated cells to their sourcing station)
+3. source_station_basin.py-->developing a source station map for the entire basin
+4. merge_source_station_globe.py-->merging basin source station maps into a global source station map
 
-inundation.py-->constructing inundation maps for synthetic events using the esl dataset and the GLOFRIS inundation maps
-source_station.py-->developing a specific coastal segment for each station (or assigning the inundated cells to their sourcing station)
-source_station_basin.py-->developing a source station map for the entire basin
-merge_source_station_globe.py-->merging basin source station maps into a global source station map
-
-3. Impact
-linking_damage_to_location.py-->making damage maps for each location
-
+Impact
+5. linking_damage_to_location.py-->making damage maps for each location
 dmg_individual_station.py-->calculating the damage cells caused by a given station (i.e. for its coastal segment)
 
 damage_percentage.py-->calculating the damage percentage for segments which are in multiple subnational basins

@@ -8,21 +8,35 @@ These scripts are used to generate the event-based probalistic framework to capt
 **Scripts**
 1. Hazard
 inundation.py-->constructing inundation maps for synthetic events using the esl dataset and the GLOFRIS inundation maps
+
 source_station.py-->developing a specific coastal segment for each station (or assigning the inundated cells to their sourcing station)
+
 source_station_basin.py-->developing a source station map for the entire basin
+
 merge_source_station_globe.py-->merging basin source station maps into a global source station map
-2. Impact
+
+3. Impact
 linking_damage_to_location.py-->making damage maps for each location
+
 dmg_individual_station.py-->calculating the damage cells caused by a given station (i.e. for its coastal segment)
+
 damage_percentage.py-->calculating the damage percentage for segments which are in multiple subnational basins
+
 add_damage_perc.py-->spliting the damages for segments which are in mupltiple subnational basins based on the damage percentages
+
 agg_dmg_annual_damage.py-->aggregating annual damages across different basins
-3. Plotting (for producing figures in the manuscript Li et al., 2024)
+
+5. Plotting (for producing figures in the manuscript Li et al., 2024)
 risk_curve_plotting_bootstrap.py-->plotting national aggregated risk curves
+
 ead_map.py-->plotting a global map showing the expected annual damage (EAD) esimate difference
+
 dmg_rp200_map.py-->plotting a global map showing the RP200 damage esimate difference
+
 coastline_length_diff_plot.py-->plotting the risk estimate differences with different coastline lengths
+
 worst_year_plotting.py-->plotting continetal maps showing the flood damages in the year with the highest combined annual damages
+
 
 **References**
 Li, H., Eilander, D., Haer, T., & Ward, P. J. (2024). Improving global-scale coastal risk assessments by considering spatial dependence. In review.

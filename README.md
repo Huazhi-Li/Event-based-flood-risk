@@ -7,12 +7,10 @@ These scripts are used to generate the event-based probalistic framework to capt
 
 **Scripts**
 1. Hazard
+
 inundation.py-->constructing inundation maps for synthetic events using the esl dataset and the GLOFRIS inundation maps
-
 source_station.py-->developing a specific coastal segment for each station (or assigning the inundated cells to their sourcing station)
-
 source_station_basin.py-->developing a source station map for the entire basin
-
 merge_source_station_globe.py-->merging basin source station maps into a global source station map
 
 3. Impact

@@ -3,7 +3,7 @@ These scripts are used to generate the event-based probalistic framework to capt
 
 **Input dataset**
 1. The improved version of the global dataset of spatially dependent extreme sea level events (Li et al., 2024), extended from Li et al. (2023). The new dataset is freely accessed at: https://doi.org/10.5281/zenodo.12722313
-2. The GLOFRIS coastal inundation maps from Mortensen et al. (2024), which is publicly available from the repository: https://doi.org/10.5281/zenodo.10637089
+2. The GLOFRIS coastal inundation maps from Mortensen et al. (2024), which is publicly available: https://doi.org/10.5281/zenodo.10637089
 
 **Scripts**
 

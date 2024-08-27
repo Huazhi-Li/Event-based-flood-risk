@@ -28,6 +28,6 @@ Plotting (for producing figures in the manuscript Li et al., 2024)
 5. worst_year_plotting.py-->plotting continetal maps showing the flood damages in the year with the highest combined annual damages
 
 **References**
-Li, H., Eilander, D., Haer, T., & Ward, P. J. (2024). Improving global-scale coastal risk assessments by considering spatial dependence. In review.
-Li, H., Haer, T., Couasnon, A., Enríquez, A. R., Muis, S., & Ward, P. J. (2023). A spatially-dependent synthetic global dataset of extreme sea level events. Weather and Climate Extremes, 41, 100596. https://doi.org/10.1016/j.wace.2023.100596 
-Mortensen, E., Tiggeloven, T., Haer, T., van Bemmel, B., Le Bars, D., Muis, S., Eilander, D., Sperna Weiland, F., Bouwman, A., Ligtvoet, W., & Ward, P. J. (2024). The potential of global coastal flood risk reduction using 690 various DRR measures. Natural Hazards and Earth System Sciences, 24(4), 1381–1400. https://doi.org/10.5194/nhess-24-1381-2024 
+1. Li, H., Eilander, D., Haer, T., & Ward, P. J. (2024). Improving global-scale coastal risk assessments by considering spatial dependence. In review.
+2. Li, H., Haer, T., Couasnon, A., Enríquez, A. R., Muis, S., & Ward, P. J. (2023). A spatially-dependent synthetic global dataset of extreme sea level events. Weather and Climate Extremes, 41, 100596. https://doi.org/10.1016/j.wace.2023.100596
+3. Mortensen, E., Tiggeloven, T., Haer, T., van Bemmel, B., Le Bars, D., Muis, S., Eilander, D., Sperna Weiland, F., Bouwman, A., Ligtvoet, W., & Ward, P. J. (2024). The potential of global coastal flood risk reduction using 690 various DRR measures. Natural Hazards and Earth System Sciences, 24(4), 1381–1400. https://doi.org/10.5194/nhess-24-1381-2024 
